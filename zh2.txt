@@ -1,0 +1,52 @@
+1.)
+Hozzon létre egy Film nevű osztályt a következő attribútumokkal!
+cim : sztring, publikus
+hossz: egész szám, publikus
+rendezo: sztring, privát
+
+2.)
+Hozzon létre egy __init__() metódust, amely mindhárom attribútumnak értéket ad!
+Ha a hossz értéke negatív, írja ki értékhiba kivétel üzenetként, hogy "Érvénytelen hossz" és ne hozza létre a példányt.
+
+3.)
+Biztosítson lehetőséget a rendezo lekérdezésére és módosítására!
+
+4.)
+Írja felül a __str__() metódust, hogy a következőképpen adja vissa a sztringet!
+"<<film>> (<<hossz>> mins) by <<rendezo>>"
+
+5.)
+Írja felül a __repr__() metódust a minta szerint!
+"<<film>>,<<rendezo>>,<<hossz>>"
+
+6.)
+Hozzon létre egy statikus metódust, amely paraméternek kap egy listát mely filmeket tartalmaz, és egy egész szám típusú paramétert.
+Adjon vissza egy listát, amely azokat a filmeket tartalmazza, amelyek hosszabbak a megadott paraméternél.
+
+7.)
+Írja meg a főprogramot, amely csak akkor kerül meghívásra, ha az aktuális fájl kerül interpretálásra!
+
+8.)
+A főprogram kérjen be egy egész számot, amely meghatározza a beviteli adatok számát!
+
+9.)
+Egy ciklus segítségével kérjen be pontosan annyiszor a program filmadatokat, ahányszor az előző feladatban meghatározásra került.
+
+10.)
+Egy sor egy film adatait reprezentálja. Dolgozza fel a bemeneti sztringet, példányosítson belőle egy Film típusú változót, és mentse el egy listába a kész példányokat.
+cim;hossz;rendezo
+
+11.)
+Hívja meg a statikus függvényt az elkészített listára és a 100 paraméterre.
+Az eredményeket írassa ki egy-egy sorba!
+
+Példa:
+>>4
+>>
+John Wick;101;Chad Stahelski
+Encanto;102;Jared Bush
+Kung Fury;31;David Sandberg
+Bombajó bokszoló;95;Michele Lupo
+<<
+"John Wick (101 mins) by Chad Stahelski"
+"Encanto (102 mins) by Jared Bush"
